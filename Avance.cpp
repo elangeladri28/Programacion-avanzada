@@ -30,6 +30,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR cmdLine, i
 
 }
 
+//Los BOOL CALLBACK son las funciones que llevaran tus ventanas creadas con el cuadro de herramietas
+//y lleva BOOL CALLBACK, un nombre y los siguientes parametros HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam
+
 BOOL CALLBACK VentanaPrincipal(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam){
 
 	switch (message){
